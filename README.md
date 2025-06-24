@@ -1,24 +1,71 @@
-# OzLotPro 🎯
-**Advanced Oz Lotto Prediction System with Smart Filters and Machine Learning**
 
-OzLotPro is a next-generation prediction engine designed to intelligently forecast winning combinations for Australia's Oz Lotto. It integrates custom mathematical formulas (`Ψ∇λ★`), historical trend analysis, entropy-based filtering, and machine learning scoring to generate and rank high-potential lotto number sets.
+# OzLotPro 🎯  
+**AI-Powered Oz Lotto Prediction System**
+
+OzLotPro is an advanced predictive engine for Australia's Oz Lotto. It combines layered mathematical modeling, entropy and frequency analytics, and machine learning scoring to intelligently generate and rank lotto number sets with high division potential.
 
 ---
 
 ## 🚀 Features
-
-- ✅ **Smart Set Generator** — Generate 200+ number sets per run using hot/cold/balanced logic
-- 📊 **Visual Diagnostics** — View frequency charts and heatmaps of predicted numbers
-- 🧠 **ML Integration** — Division-potential scoring using a trained Random Forest model
-- 📥 **Upload Results** — Compare predictions against official results to detect Division 1–7 matches
-- 🧮 **Extensible Engine** — Custom formula layer supports entropy, Mahalanobis distance, Bayesian conditioning, and Fourier transforms
+- 🔢 **200+ Smart Predictions** per session
+- 🌡️ **Hot/Cold/Balanced Filters** using historical frequency analysis
+- 📈 **Visual Diagnostics**: heatmaps and frequency plots
+- 🧠 **Machine Learning Scoring** of sets via Random Forest
+- 📥 **Result Uploads** for Division Match Analysis
+- ⚙️ **Modular Formula Engine** (Ψ∇λ★): includes entropy, Mahalanobis, Bayes filters
 
 ---
 
-## 🛠️ Getting Started
+## 📦 Project Structure
+```
+OzLotPro/
+├── streamlit_app.py            # Streamlit-based interface
+├── ozlotpro_predictor.py       # Smart number set generator
+├── ozlotpro_model.pkl          # Pretrained ML model
+├── utils.py                    # Visualization and support tools
+├── requirements.txt            # Dependencies
+└── Oz_Lotto_Historical_Draws.csv  # Historical results (for training and scoring)
+```
 
-### 🔧 Installation
+---
+
+## 💻 Run Locally
+
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/OzLotPro.git
 cd OzLotPro
+```
+
+### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
+
+### 3. Launch the App
+```bash
+streamlit run streamlit_app.py
+```
+
+---
+
+## 🧪 Future Enhancements
+- [ ] Division-specific ML training
+- [ ] Auto-updating draw database
+- [ ] Real-time scoring confidence index
+- [ ] Genetic/Evolutionary pattern filtering module
+
+---
+
+## 📜 License
+MIT License
+
+---
+
+## 🤝 Contributing
+Pull requests welcome. If you'd like to add a filter module, new visualization, or help tune the ML model, feel free to fork and collaborate.
+
+---
+
+## 🙌 Author
+Built by [Your Name] with the goal of bringing predictive intelligence to the game of chance.
